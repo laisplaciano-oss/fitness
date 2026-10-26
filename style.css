@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f3;
+    color: #222;
+}
+
+.topo {
+    background: #173f35;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.topo h1 {
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card h2 {
+    color: #173f35;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.botao {
+    display: inline-block;
+    background: #23845f;
+    color: white;
+    padding: 13px 22px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.botao:hover {
+    background: #176746;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    background: white;
+}
+
+form input:focus,
+form select:focus {
+    outline: 2px solid #23845f;
+    border-color: #23845f;
+}
+
+button.botao {
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.secundario {
+    background: #555;
+    text-align: center;
+}
+
+.secundario:hover {
+    background: #333;
+}
